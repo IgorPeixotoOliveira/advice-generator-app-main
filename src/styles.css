@@ -64,6 +64,13 @@ main div .button {
     cursor: pointer;
 }
 
+main div .button:hover {
+    background-color: hsl(150, 100%, 66%);
+    transition: background-color 1.05s;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
 body div.attribution {
     margin-top: 50px;
     font-size: 12px;
