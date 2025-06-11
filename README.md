@@ -4,25 +4,7 @@ Este projeto é um aplicativo web simples que gera conselhos aleatórios consumi
 
 ## 📸 Preview
 
-![Demonstração do projeto](./src/images/preview.gif)
-
----
-
-## 📁 Estrutura de pastas
-src/
-├── CSS/
-│ ├── reset.css
-│ ├── styles.css
-│ ├── variables.css
-│ └── responsive.css
-├── JS/
-│ └── index.js
-├── images/
-│ ├── favicon-32x32.png
-│ ├── icon-dice.svg
-│ ├── pattern-divider-desktop.svg
-│ └── pattern-divider-mobile.svg
-index.html
+![Demonstração do projeto](/src/images/preview.gif)
 
 ---
 
@@ -44,6 +26,24 @@ index.html
 
 ---
 
+## 📁 Estrutura de pastas
+```bash
+src/
+├── CSS/
+│ ├── reset.css
+│ ├── styles.css
+│ ├── variables.css
+│ └── responsive.css
+├── JS/
+│ └── index.js
+├── images/
+│ ├── favicon-32x32.png
+│ ├── icon-dice.svg
+│ ├── pattern-divider-desktop.svg
+│ └── pattern-divider-mobile.svg
+index.html
+```
+
 ## 🚀 Como usar
 
 ### 1. Clone o repositório
@@ -52,6 +52,8 @@ index.html
 git clone https://github.com/seu-usuario/advice-generator-app.git
 cd advice-generator-app
 ```
+
+---
 
 ### 2. Abra o arquivo index.html no navegador
 Você pode usar uma extensão como Live Server no VS Code ou simplesmente abrir o arquivo no navegador:
