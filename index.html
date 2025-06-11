@@ -4,13 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- ensures compatibility with Internet Explorer -->
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
   <meta name="description" content="A simple advice generator app that fetches random advice from an API.">
   <meta name="keywords" content="advice, generator, app, frontend mentor, challenge">
   <meta name="author" content="Igor Peixoto de Oliveira">
-  <link rel="stylesheet" href=".src/styles/globals.css">
-  <link rel="stylesheet" href="./src/styles.css"> <!-- Link to the main stylesheet -->
+  <link rel="stylesheet" href="/src/CSS/reset.css">
+  <link rel="stylesheet" href="/src/CSS/styles.css">
+  <link rel="stylesheet" href="/src/CSS/variables.css"> 
+  <link rel="stylesheet" href="/src/CSS/responsive.css">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -20,31 +23,18 @@
 
   <title>Frontend Mentor | Advice generator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-  <script src="/index.js"></script>
 </head>
 
 <body>
   <main>
     <div class="advice container">
-      <h2 class="color">ADIVICE #117<!-- Advice ID goes here --></h2>
-      <h1 class="advice-text">
-        “It is easy to sit up and take notice, what's difficult is getting up and taking action.”<!-- Advice text goes here -->"
-      </h1>
+      <h2 class="advice-id"> Loading Advice #...</h2>
+      <h1 class="advice-text"> Loading advice...</h1>
 
       <img class="separator" src="./src/images/pattern-divider-desktop.svg" alt="Pattern Divider" class="divider">
-      <button class="button" id="advice-button">
+      <button class="advice-button" id="advice-button">
         <img src="./src/images/icon-dice.svg" alt="Dice Icon">
+      </button>
     </div>
   </main>
 
@@ -52,6 +42,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Igor Peixoto de Oliveira</a>.
   </div>
+  <script src="/src/JS/index.js"></script>
 </body>
-
 </html>

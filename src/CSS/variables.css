@@ -1,0 +1,21 @@
+
+
+:root {
+  /* Primary Colors */
+  --green-300: hsl(150, 100%, 66%);
+  --blue-200: hsl(193, 38%, 86%);
+
+  /* Neutral Colors */
+  --blue-600: hsl(217, 19%, 38%);
+  --blue-900: hsl(217, 19%, 24%);
+  --blue-950: hsl(218, 23%, 16%);
+
+  /* Typography */
+  --font-family-base: 'Manrope', sans-serif;
+  --font-size-quote: 28px;
+  --font-weight-bold: 800;
+
+  /* Layout Breakpoints */
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+}

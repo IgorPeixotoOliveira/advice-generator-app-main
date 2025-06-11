@@ -1,0 +1,10 @@
+@media(max-width: 560px) {
+    main {
+        max-width: 343px;
+        min-height: 200px;
+        padding: 10px;
+    }
+    main img.separator {
+        margin-bottom: 50px;
+    }
+}

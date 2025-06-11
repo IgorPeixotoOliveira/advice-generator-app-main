@@ -1,0 +1,85 @@
+body {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-bold);
+    background-color: var(--blue-950);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    max-width: 540px;
+    min-height: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--blue-900);
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+main h2.advice-id {
+    color: var(--green-300);
+    padding-top: 28px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    height: 18px;
+}
+
+main h1.advice-text {
+    color: var(--blue-200);
+    padding-top: 48px;
+    margin: 0 auto;
+    min-height: 114px;
+    max-width: 85%;
+}
+
+main img.separator {
+    margin: 50px auto 0;
+    width: 80%;
+    height: 16px;
+    opacity: 0.75;
+    display: block; 
+    margin-bottom: 50px;
+}
+
+main button.advice-button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--green-300);
+    color: var(--blue-950);
+    border: none;
+    cursor: pointer;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: background-color 1.05s, transform 0.3s, box-shadow 0.3s;
+}
+
+main button.advice-button:hover {
+    box-shadow: 0 0 20px var(--green-300);
+    opacity: 0,75;
+}
+
+div.attribution {
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+    color: var(--blue-200);
+}
+
+div.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
