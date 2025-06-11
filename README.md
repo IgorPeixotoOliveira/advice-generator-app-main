@@ -4,7 +4,7 @@ Este projeto é um aplicativo web simples que gera conselhos aleatórios consumi
 
 ## 📸 Preview
 
-![Advice Generator Screenshot](./src/images/preview.gif)
+![Demonstração do projeto](./src/images/preview.gif)
 
 ---
 
